@@ -1,0 +1,329 @@
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+/* a:hover {
+    color: red !important;
+    filter: invert(1) !important;
+    text-decoration: none !important;
+} */
+
+/* .ignorer {
+    pointer-events: none;
+} */
+
+/* ANIMATION ANIMATION ANIMATION ANIMATION ANIMATION ANIMATION ANIMATION */
+
+.brain {
+    display: flex;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+.brain img {
+    margin-top: -50px;
+    /* border: solid red; */
+}
+
+/* TERRE TERRE TERRE TERRE TERRE TERRE TERRE TERRE TERRE TERRE */
+
+.rope {
+    display: block;
+    margin: auto;
+    margin-top: -346px;
+    width: 600px;
+    height: 476px;
+    /* border: solid orange; */
+}
+
+.line {
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1px;
+    height: 1px;
+    left: 114px;
+    animation-name: line;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes line {
+    100% {height: 400px;}
+}
+
+.earth img {
+    overflow: hidden;
+    position: relative;
+    top: -2px;
+    left: 39px;
+    animation-name: earthrotate;
+    animation-delay: 1s;
+    animation-duration: 7s;
+}
+
+@keyframes earthrotate {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(5deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.earthtext {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+    width: 100px;
+    top: -273px;
+    left: 115px;
+    animation-name: earthtextfadein;
+    animation-delay: 1s;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes earthtextfadein {
+    20% {color: rgba(0, 0, 0, 0);}
+    100% {color: rgba(0, 0, 0, 1);}
+}
+
+/* PHARE PHARE PHARE PHARE PHARE PHARE PHARE PHARE PHARE PHARE */
+
+.rope2 {
+    display: block;
+    margin: auto;
+    margin-top: -489px;
+    width: 600px;
+    height: 476px;
+    /* border: solid yellow; */
+}
+
+.line2 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1px;
+    height: 1px;
+    left: 370px;
+    animation-name: line2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line2 {
+    100% {height: 589px;}
+}
+
+.phare img {
+    position: relative;
+    top: -1px;
+    left: 322px;
+    animation-name: pharerotate;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    z-index: 1;
+}
+
+@keyframes pharerotate {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(1deg);}
+    75% {transform: rotate(-1deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.pharetext {
+    position: relative;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: rgba(0, 0, 0, 0);
+    width: 100px;
+    top: -432px;
+    left: 271px;
+    animation-name: pharetextfadein;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pharetextfadein {
+    20% {color: rgba(0, 0, 0, 0);}
+    100% {color: rgba(0, 0, 0, 1);}
+}
+
+/* SPEAKER SPEAKER SPEAKER SPEAKER SPEAKER SPEAKER SPEAKER SPEAKER */
+
+.rope3 {
+    display: block;
+    margin: auto;
+    margin-top: -462px;
+    width: 600px;
+    height: 476px;
+    /* border: solid green; */
+}
+
+.line3 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1px;
+    height: 1px;
+    left: 461px;
+    animation-name: line3;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line3 {
+    100% {height: 480px;}
+}
+
+.speaker img {
+    position: relative;
+    top: -32px;
+    left: 400px;
+    animation-name: speakerrotate;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    z-index: 2;
+}
+
+@keyframes speakerrotate {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(7deg);}
+    75% {transform: rotate(-7deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.speakertext {
+    position: relative;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+    width: 150px;
+    top: -334px;
+    left: 461px;
+    animation-name: speakertextfadein;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes speakertextfadein {
+    20% {color: rgba(0, 0, 0, 0);}
+    100% {color: rgba(0, 0, 0, 1);}
+}
+
+/* CONTAINERS CONTAINERS CONTAINERS CONTAINERS CONTAINERS CONTAINERS CONTAINERS */
+
+#supercontainersoftskills {
+    display: none;
+    /* color: rgba(0, 0, 0, 0);
+    line-height: 0.7; */
+    animation-name: textfadein;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textfadein {
+    /* 0% {color: rgba(0, 0, 0, 0); line-height: 0.75;}
+    100% {color: rgba(0, 0, 0, 1); line-height: 1.5;} */
+
+    0% {transform: scale(0.75);}
+    25% {transform: scale(1);}
+}
+
+#supercontainerdiplomes {
+    display: none;
+    /* color: rgba(0, 0, 0, 0);
+    line-height: 0.7; */
+    animation-name: textfadein;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#supercontainerexppro {
+    display: none;
+    animation-name: scale;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scale {
+    0% {transform: scale(0.75);}
+    25% {transform: scale(1);}
+}
+
+/* A PROPOS DE MOI A PROPOS DE MOI A PROPOS DE MOI A PROPOS DE MOI A PROPOS DE MOI */
+
+#aproposdemoi {
+    /* color: rgba(0, 0, 0, 0);
+    line-height: 0.7; */
+    animation-name: textfadein;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* OUTILS OUTILS OUTILS OUTILS OUTILS OUTILS OUTILS OUTILS OUTILS OUTILS */
+
+#outils {
+    /* color: rgba(0, 0, 0, 0);
+    line-height: 0.7; */
+    animation-name: textfadein;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS LOISIRS */
+
+.align-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.align-left.slide-in {
+    transform: translateX(-30%) scale(0.95);
+}
+  
+.align-right.slide-in {
+    transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */
+
+@media (max-width: 1250px) {
+    .brain img {width: 280px;}
+    .rope {display: none;}
+    .rope2 {display: none;}
+    .rope3 {display: none;}
+}
